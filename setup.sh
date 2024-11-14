@@ -143,35 +143,6 @@ echo "@tailwind base;
 
 rm -rf App.css
 
-echo "function App() {
-  return (
-    <div class=\"min-h-screen bg-gray-100\">
-      <nav class=\"bg-white shadow-lg\">
-        <div class=\"max-w-6xl mx-auto px-4\">
-          <div class=\"flex justify-between\">
-            <div class=\"flex space-x-7\">
-              <a 
-                href=\"/\" 
-                class=\"py-4 px-2 text-gray-500 hover:text-gray-900\"
-              >
-                Home
-              </a>
-              <a 
-                href=\"/about\" 
-                class=\"py-4 px-2 text-gray-500 hover:text-gray-900\"
-              >
-                About
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  );
-}
-
-export default App;" > App.tsx
-
 echo "/* @refresh reload */
 import { render } from 'solid-js/web'
 import './index.css'
