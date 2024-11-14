@@ -4,6 +4,6 @@ Fast, Easy and Reliable full stack application template, with [SolidJS](https://
 
 Setup your environment:
 - `git clone https://github.com/tomaslobato/go-solid && cd go-solid`
-- `./setup`
+- `./setup.sh`
 - `make dev` for dev environment
 - `make build && make run` for production
