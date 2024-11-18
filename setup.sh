@@ -187,3 +187,7 @@ export default Layout" > Layout.tsx
 
 cd ../../../
 mv ./go-solid ./$project 
+cd ./$project
+rm -rf setup.sh Makefile 
+echo "#$project
+built with the [go-solid](https://github.com/tomaslobato/go-solid) stack" > README.MD
