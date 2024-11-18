@@ -191,3 +191,6 @@ cd ./$project
 rm -rf setup.sh Makefile 
 echo "#$project
 built with the [go-solid](https://github.com/tomaslobato/go-solid) stack" > README.md
+
+rm .git
+git init
