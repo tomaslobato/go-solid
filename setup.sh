@@ -185,3 +185,5 @@ const Layout: Component<LayoutProps> = (props) => {
 
 export default Layout" > Layout.tsx
 
+cd ../../../
+mv ./go-solid ./$project 
